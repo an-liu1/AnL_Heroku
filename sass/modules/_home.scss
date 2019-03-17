@@ -1,1 +1,97 @@
-body { background: $bg-color; color: $text-color; font-size: 16px; }
+.logo a{
+    font-family: $font;
+    background-color: $logo-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: $text-color;
+    padding: 20px 25px;
+    font-size: 30px;  
+}
+.logo{
+    text-align: center;
+}
+.logo a:hover{
+    color: $hover-color;
+    text-decoration: none;
+}
+
+.bannerShoe{
+    .list{
+        margin-top: 30px;
+        h3{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: $p-size;
+            margin: 20px auto;
+            width: 80%;
+        }
+        hr{
+            height: 5px;
+            background: #4745d3; /* Old browsers */
+            background: -moz-linear-gradient(left,  #4745d3 1%, #4745d3 12%, #5451c7 29%, #5451c7 29%, #b0a56e 57%, #c1b45e 68%, #ecdc34 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(1%,#4745d3), color-stop(12%,#4745d3), color-stop(29%,#5451c7), color-stop(29%,#5451c7), color-stop(57%,#b0a56e), color-stop(68%,#c1b45e), color-stop(100%,#ecdc34)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(left,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* IE10+ */
+            background: linear-gradient(to right,  #4745d3 1%,#4745d3 12%,#5451c7 29%,#5451c7 29%,#b0a56e 57%,#c1b45e 68%,#ecdc34 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4745d3', endColorstr='#ecdc34',GradientType=1 ); /* IE6-9 */
+        }
+    }
+    .buy{
+        p{
+           span{
+               color:$hover-color;
+               font-size: $p-size;
+               font-weight: bold;
+           } 
+        }
+        button{
+            padding: 5px 90px;
+            color: $text-color;
+            background-color:$bg-color;
+            i{
+                padding-left: 10px;
+            }
+        }
+        button:hover{
+            color: $hover-color;
+        }
+    }
+}
+footer{
+    margin-top: 40px;
+    float: right;
+    font-size: $footer-size;
+}
+@media (min-width: 768px) {
+    .logo a{
+        padding: 30px 60px;
+        font-size: 50px;  
+    }
+    .bannerShoe{
+        .buy{
+            button{
+                padding: 5px 45px;
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .bannerShoe{
+        .list{
+            img{
+                margin-left: 18%;
+            }
+        }
+        .buy{
+           
+            button{
+                padding: 5px 40px;
+            }
+        }
+    }
+}
+

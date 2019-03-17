@@ -6,7 +6,7 @@ data.title = `Welcome to Express with Node`;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {name: "Our Generic App", role: "default role"});
+  res.render('index', {name: "Nike Air", role: "Nike Air"});
 });
 
 router.get('/:user', (req, res, next) => {
