@@ -3,17 +3,15 @@ const data = {
     role: "Prof",
 
     user1: {
-        name: "user",
-        bioPic: "carol.jpg",
-        role: "developer",
-        bio: "some bio information for user 1 here"
+        name: "N-Air Purple-Yellow",
+        img: "f-l.jpg",
+        description: "FlyEase technology gives you the performance you’d expect, with easy access for all athletes. Just launched.",
     },
 
     user2: {
-        name: "user2",
-        bioPic: "thor.png",
-        role: "designer",
-        bio: "some bio information for user 2 here"
+        name: "N-Air Blue-Red",
+        img: "f-r.png",
+        description: "The Air Max 720 in two new colourways to keep you on your toes. JUST GO BIGGER!!!",
     }
 };
 
