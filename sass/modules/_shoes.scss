@@ -1,0 +1,21 @@
+.shoe-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.shoe-img{
+    display: block;
+    margin: 0 auto;
+
+}
+.shoe-des{
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+@media (min-width: 768px) {
+    .shoe-des{
+        width: 75%;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+}

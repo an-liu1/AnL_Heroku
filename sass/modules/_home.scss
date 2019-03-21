@@ -48,6 +48,9 @@
                font-weight: bold;
            } 
         }
+        div{
+            margin-top: 15px;
+        }
         button{
             padding: 5px 90px;
             color: $text-color;
@@ -89,7 +92,7 @@ footer{
         .buy{
            
             button{
-                padding: 5px 40px;
+                padding: 5px 45px;
             }
         }
     }
